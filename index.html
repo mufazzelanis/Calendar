@@ -3,9 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calendar Project</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .calendar ul{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 25px;
+            padding: 10px;
+            
+        }
+        .calendar li{
+            list-style: none;
+            display: flex;
+            font-size: 45px;
+            height: 40px;
+            background-color: lightgreen;
+            justify-content: center;
+            align-items: center;
+        }
+        .other-month{
+            background-color: bisque!important;
+        }
+        .had{
+            text-align: center;
+            font-size: 25px;
+        }
+        .h3{
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            background-color: chartreuse;
+            
+            
+        }
+        .week-name{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 25px;
+            padding: 10px;
+            
+        }
+        .container{
+            
+            display: flex;
+            
+            /* width: calc(50% - 40px/3); */
+            max-width: 1200px;
+            
+            
+        }
+        .box{
+            border: 3px solid gray;
+            margin: 10px;
+            border-radius: 10px;
+            width: 800px;
+           
+        }
+
+    </style>
+
+
+
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="had">
+        <h1>Calender</h1> <hr>
+    </div>
+    <main class="container">
+        <section class="box">
+            <div class="had">
+                <h1>January</h1> 
+            </div>
+            <div class="week-name">
+                <div class="h3">Saturday</div>
+                <div class="h3">Sunday</div>
+                <div class="h3">Monday</div>
+                <div class="h3">Tuesday</div>
+                <div class="h3">Wednesday</div>
+                <div class="h3">Thursday</div>
+                <div class="h3">Friday</div>
+            </div>
+            
+            <div class="calendar">
+                <ul>
+                    <li class="other-month">30</li>
+                    <li class="other-month">31</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li class="other-month">1</li>
+                    <li class="other-month">2</li>
+                    <li class="other-month">3</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="box">
+            <div class="had">
+                <h1>February</h1> 
+            </div>
+            <div class="week-name">
+                <div class="h3">Saturday</div>
+                <div class="h3">Sunday</div>
+                <div class="h3">Monday</div>
+                <div class="h3">Tuesday</div>
+                <div class="h3">Wednesday</div>
+                <div class="h3">Thursday</div>
+                <div class="h3">Friday</div>
+            </div>
+            
+            <div class="calendar">
+                <ul>
+                    <li class="other-month">30</li>
+                    <li class="other-month">31</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li class="other-month">1</li>
+                    <li class="other-month">2</li>
+                    <li class="other-month">3</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="box">
+            <div class="had">
+                <h1>March</h1> 
+            </div>
+            <div class="week-name">
+                <div class="h3">Saturday</div>
+                <div class="h3">Sunday</div>
+                <div class="h3">Monday</div>
+                <div class="h3">Tuesday</div>
+                <div class="h3">Wednesday</div>
+                <div class="h3">Thursday</div>
+                <div class="h3">Friday</div>
+            </div>
+            
+            <div class="calendar">
+                <ul>
+                    <li class="other-month">30</li>
+                    <li class="other-month">31</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li class="other-month">1</li>
+                    <li class="other-month">2</li>
+                    <li class="other-month">3</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
 </body>
 </html>
